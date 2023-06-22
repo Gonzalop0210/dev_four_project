@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     /* Google Fonts */
     --font_montserrat: 'Montserrat', sans-serif;
@@ -10,4 +16,47 @@
     --color_gray_ligth: #BDBDBD;
     --color_gray_footer: #828282;
     --color_white: #FFFFFF;
+    --color_grey_points: #C4C4C4;
+}
+
+/* Header Start */
+body {
+    padding: 30px 0;
+}
+
+.header {
+    padding: 0 20px;
+}
+
+.title {
+    font-family: var(--font_playfair);
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.container_points_paragraph {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.icon_points {
+    color: var(--color_grey_points);
+}
+
+.paragraph {
+    font-family: var(--font_montserrat);
+    font-weight: 500;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--color_gray_second);
+}
+/* Header End */
+/* Nav Start */
+.nav_img {
+    margin-top: 30px;
+}
+
+.img {
+    width: 100%;
 }
