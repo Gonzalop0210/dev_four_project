@@ -1,0 +1,13 @@
+:root {
+    /* Google Fonts */
+    --font_montserrat: 'Montserrat', sans-serif;
+    --font_playfair: 'Playfair Display', serif;
+    /* Colors */
+    --color_black: #000000;
+    --color_gray_second: #4F4F4F;
+    --color_gray_firs: #333333;
+    --color_orange: #F2994A;
+    --color_gray_ligth: #BDBDBD;
+    --color_gray_footer: #828282;
+    --color_white: #FFFFFF;
+}
