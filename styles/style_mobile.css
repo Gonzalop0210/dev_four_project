@@ -1,0 +1,70 @@
+:root {
+    /* Google Fonts */
+    --font_montserrat: "Montserrat", sans-serif;
+    --font_playfair: "Playfair Display", serif;
+    /* Colors */
+    --color_black: #000000;
+    --color_gray_second: #4f4f4f;
+    --color_gray_firs: #333333;
+    --color_orange: #f2994a;
+    --color_gray_ligth: #bdbdbd;
+    --color_gray_footer: #828282;
+    --color_white: #ffffff;
+    --color_grey_points: #c4c4c4;
+}
+
+@media (min-width: 600px) {
+    .header,
+    .container_aside_main {
+        padding: 0 300px;
+    }
+
+    .container_points_paragraph {
+        width: 65%;
+    }
+
+    .icon_points {
+        font-size: 12px;
+    }
+
+    .paragraph {
+        font-size: 13px;
+    }
+
+    .aside {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+        padding: 50px 40px;
+        border-radius: 10px;
+        margin-top: 0;
+        flex: 1/2;
+    }
+
+    .main {
+        flex: 1;
+    }
+
+    .container_aside_main {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .container_order_items {
+        flex-direction: column;
+        align-items: start;
+        gap: 25px;
+    }
+
+    .icon_utensils,
+    .fa-clock,
+    .text_order_bottom {
+        font-size: 12px;
+    }
+
+    .text_order_top {
+        font-size: 10px;
+    }
+}
